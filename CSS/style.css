@@ -11,6 +11,7 @@ body{
 .hidden{
     display: none;
 }
+
 #weather{
     float:right;
     font-size: 20px;
@@ -31,8 +32,8 @@ body{
 #toDaysWokrs{
     font-size: 15px;
     left: 100%;
-    top: 50%;
-    transform: translate(0%, -100%);
+    top: 0%;
+    transform: translate(0%, -50%);
 }
 
 #clock{

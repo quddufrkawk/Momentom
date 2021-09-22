@@ -1,12 +1,11 @@
 const toDoForm = document.getElementById("todo-form");
 const toDoInput = toDoForm.querySelector("input");
 const toDoList = document.getElementById("todo-list");
+const idCheck = document.getElementById("checking");
 
 const TODOS_KEY = "toDos";
 
 let toDos = [];
-
-
 
 function saveToDos(){
     localStorage.setItem(TODOS_KEY, JSON.stringify(toDos));
